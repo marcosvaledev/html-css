@@ -1,0 +1,19 @@
+titulos = H1, H2, H3, H3, H4, H5, H6
+paragrafos = <p>
+add imagens = img scr...
+add icon site = link favicon (renomeia favicon)
+italico e negrito = em ~~ strong
+small pra deixar palavra pequena
+ins pra sublinhar
+abbr pra passar o mouse em cima da palavra, e mostrar uma informacao
+criar listas ordenadas ol e depois li
+exemplo: 
+1.
+2
+3.
+listas definitivas 
+dl > dt > dt
+abrir links de sites, 
+target="_blank,_self
+rel="external", prev, next
+voltar pagina "../" de pasta diferente

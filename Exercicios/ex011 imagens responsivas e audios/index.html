@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias dinamicas</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+        <p>tente abrir este site em outros dispositivos, ou diminua e aumente o zoom</p>
+     <picture>
+        <source media="(max-width: 750px)" srcset="imagens/300x300.png" type="image/png">
+      <source media="(max-width:1050px )" srcset="imagens/700.png" type="image/png"> 
+    <img src="imagens/1000.png" alt="imagem flexivel">
+    </picture>   
+    
+    <h1>Reproduzindo audio</h1>
+    
+    <audio preload="metadata" controls>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador nao consegue reproduzir audio</p>
+        <p><a href="midia/guanacast-33.mp3" target="_blank">clique aqui</a> para baixar o arquivo MP3</p>
+    </audio>
+    
+</body>
+</html>
