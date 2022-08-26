@@ -1,0 +1,10 @@
+FONTE-FAMILY
+FONT-SIZE
+FONT-SYLE
+text-decoration
+font-whedt "bold" exemeplo, normal... tira o adiciona negrtio mais forte
+id = #
+class = . 
+:: = pseudo element
+: = pseudo class
+> children

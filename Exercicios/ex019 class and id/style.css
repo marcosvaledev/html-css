@@ -1,0 +1,30 @@
+@charset"UTF-8";
+
+body {
+    background-color: skyblue;
+    color: ;
+    font-family: sans-serif;
+}
+h1 {
+    color: white;
+}
+ h1#principal {
+    text-align: center;
+    
+  }
+ 
+h2 {
+    color: black;
+}
+.basico{
+    color: aqua;
+}
+
+.intermed {
+    color: aquamarine;
+}
+
+.avan {
+    color: cadetblue;
+
+}
