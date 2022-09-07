@@ -47,3 +47,23 @@ iframe#tela {
     
 }
 
+ul {
+    text-align: right;
+}
+
+.imgg ul img#rede {
+    width: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    padding: 1.1px;
+    margin-right: 10px;
+}
+
+.imgg ul img:hover {
+    border-radius: 10px;
+    border: 7px solid transparent;
+    transform: translate(-5px,-5px);
+    transition:  0.5s;
+    box-shadow: 5px 5px 5px transparent;
+}
