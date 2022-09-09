@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+<style>
+
+
+    html {
+        
+        height:100vh ;
+        width: 97%;
+    }
+
+    body {
+        
+        height: 100%;
+        width: 100%;
+    }
+    
+
+</style>
+<body>
+    <h1>TESTE DE FORMULARIO</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="nome completo">
+        </p>
+        <p>
+            <label for="idata">Data de Nascimento</label>
+            <input type="date" name="data" id="idata">
+        </p>
+
+        <p>
+            <label for="imes">Periodo letivo </label>
+            <input type="month" name="mes" id="imes">
+
+        </p>
+        <p>
+            <label for="imedia"> Média da nota</label>
+            <input type="number" name="Média" id="imédia" min="0" max="10" placeholder="0 á 10" min step="0.1">
+       </p>
+
+       <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+       </p>
+       <p>
+        <input class="button" type="button" value="click aqui">
+       </p>
+       
+
+
+
+    </form>
+    
+</body>
+</html>
