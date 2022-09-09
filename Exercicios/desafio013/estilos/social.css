@@ -22,9 +22,9 @@ body {
 
 body p {
     text-align: center;
-    background-color: aqua;
-    padding: 30px;
-    font-size: 30px;
+    background-color: rgb(250, 237, 182);
+    padding: 20px;
+    font-size: 20px;
     font-style: italic;
     font-family: monospace;
     text-decoration: none;
