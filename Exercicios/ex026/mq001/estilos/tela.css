@@ -1,0 +1,11 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
