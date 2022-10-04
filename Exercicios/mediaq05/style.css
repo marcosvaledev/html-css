@@ -23,8 +23,21 @@ header h1 {
     text-align: center;
     padding-top: 20px;  
 }
+span#burguer {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 6px;
+}
 
+span#burguer:hover {
+back
+}
 
+menu {
+display: none;
+}
 
 
 ul {
